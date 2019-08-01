@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JQuery Quiz</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
+<title>JQuery Quiz</title>
+<link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-  <header>
-    <h1>Quiz Time!</h1>
-  </header>
-  <main>
-    <div class="front-page">
-      <h1>This is the Front Page</h1>
-      <button type="submit" id="start-button">Start</button>
-    </div>
-    <div class="question-container">
-      <h2>THis is my question</h2>
-      <input type="radio" id="" name="answer" value="">
-      <label class="answer">answer1
-      <input type="radio" id="" name="answer" value="">
-      <label class="answer">answer2
-      <input type="radio" id="" name="answer" value="">
-      <label class="answer">answer3
-      <input type="radio" id="" name="answer" value="">
-      <label class="answer">answer4
-      <button type="submit" id="back-button"></button>
-    </div>
-  <!-- TODO: ADD YOUR HTML CODE HERE -->
-
-  <!-- TODO: ADD JQUERY DEPENDENCY -->
-  </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="script.js" charset="utf-8"></script>
-  <!-- TODO: ADD YOUR JS FILES -->
+<header>
+  <h1>Quiz Time!</h1>
+</header>
+<main>
+  <div id="front-page">
+    <h1 id="title-text">Quizzzzz</h1>
+    <button type="submit" id="start-button">Start</button>
+  </div>
+  <div id="question-container">
+    <h2 id="question">This is my question</h2>
+    <ul id="answer-list">
+          <li>
+            <input type="radio" id="radio0" name="answer" value="0">
+            <label class="answer" id="answer0">answer1</label>
+       </li>
+       <li>
+            <input type="radio" id="radio1" name="answer" value="1">
+            <label class="answer" id="answer1">answer2</label>
+        </li>
+        <li>
+            <input type="radio" id="radio2" name="answer" value="2">
+            <label class="answer" id="answer2">answer3</label>
+        </li>
+        <li>
+            <input type="radio" id="radio3" name="answer" value="3">
+            <label class="answer" id="answer3">answer4</label>
+        </li>
+     </ul>
+  </div>
+  <div id="transition-buttons">
+    <!-- <button type="submit" id="back-button">Back</button> -->
+    <button type="submit" id="next-button">Next</button>
+  </div>
+<!-- TODO: ADD YOUR HTML CODE HERE -->
+<!-- TODO: ADD JQUERY DEPENDENCY -->
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js" charset="utf-8"></script>
+<!-- TODO: ADD YOUR JS FILES -->
 </body>
 </html>
