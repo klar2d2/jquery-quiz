@@ -3,6 +3,7 @@ html{
     background-repeat: no-repeat;
     background-size: auto;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -12,6 +13,7 @@ body {
 h1 {
     color: rgb(218, 186, 7);
     text-align: center;
+
 }
 h2 {
     color: rgb(218, 186, 7);
@@ -27,6 +29,42 @@ ul {
 #question-container {
     visibility: hidden;
 }
+#transition-buttons {
+    visibility: hidden;
+}
+
+h2 {
+    color: rgb(218, 186, 7);
+    text-align: center;
+}
+
+label {
+    color: rgb(218, 186, 7);
+}
+
+table {
+	text-align: center;
+	margin: auto;
+}
+
+td {
+	color: rgb(218, 186, 7);
+    border: 2px solid gray;
+    margin: 1px;
+}
+
+ul {
+    list-style: none;
+}
+
+#answer-table {
+	visibility: hidden;
+}
+
+#question-container {
+    visibility: hidden;
+}
+
 #transition-buttons {
     visibility: hidden;
 }
