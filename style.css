@@ -1,70 +1,43 @@
 html{
-    background: url("gray.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
+   background: url("gray.jpg");
+   background-repeat: no-repeat;
+   background-size: auto;
 }
-
 body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 h1 {
-    color: rgb(218, 186, 7);
-    text-align: center;
-
+   color: rgb(218, 186, 7);
+   text-align: center;
 }
 h2 {
-    color: rgb(218, 186, 7);
-    text-align: center;
-    background:
+   color: rgb(218, 186, 7);
+   text-align: center;
 }
 label {
-    color: rgb(218, 186, 7);
+   color: rgb(218, 186, 7);
 }
-ul {
-    list-style: none;
-}
-#question-container {
-    visibility: hidden;
-}
-#transition-buttons {
-    visibility: hidden;
-}
-
-h2 {
-    color: rgb(218, 186, 7);
-    text-align: center;
-}
-
-label {
-    color: rgb(218, 186, 7);
-}
-
 table {
-	text-align: center;
-	margin: auto;
+    text-align: center;
+    margin: auto;
 }
-
 td {
-	color: rgb(218, 186, 7);
-    border: 2px solid gray;
-    margin: 1px;
+    color: rgb(218, 186, 7);
+   border: 2px solid gray;
+   margin: 1px;
 }
-
 ul {
-    list-style: none;
+   list-style: none;
 }
-
 #answer-table {
-	visibility: hidden;
+    visibility: hidden;
 }
-
 #question-container {
-    visibility: hidden;
+   visibility: hidden;
 }
-
 #transition-buttons {
-    visibility: hidden;
+   visibility: hidden;
 }
