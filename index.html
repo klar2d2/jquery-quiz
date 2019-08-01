@@ -1,14 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JQuery Quiz</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
+<title>JQuery Quiz</title>
+<link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
+<header>
   <h1>Quiz Time!</h1>
-  <!-- TODO: ADD YOUR HTML CODE HERE -->
-  
-  <!-- TODO: ADD JQUERY DEPENDENCY -->
-  <!-- TODO: ADD YOUR JS FILES -->
+</header>
+<main>
+  <div id="front-page">
+    <h1 id="title-text">Quizzzzz</h1>
+    <button type="submit" id="start-button">Start</button>
+  </div>
+  <div id="question-container">
+    <h2 id="question">This is my question</h2>
+    <ul id="answer-sheet">
+          <li>
+            <input type="radio" id="radio0" name="answer" value="0">
+            <label class="answer" id="answer0">answer1</label>
+       </li>
+       <li>
+            <input type="radio" id="radio1" name="answer" value="1">
+            <label class="answer" id="answer1">answer2</label>
+        </li>
+        <li>
+            <input type="radio" id="radio2" name="answer" value="2">
+            <label class="answer" id="answer2">answer3</label>
+        </li>
+        <li>
+            <input type="radio" id="radio3" name="answer" value="3">
+            <label class="answer" id="answer3">answer4</label>
+        </li>
+     </ul>
+  </div>
+  <div id="transition-buttons">
+    <!-- <button type="submit" id="back-button">Back</button> -->
+    <button type="submit" id="next-button">Next</button>
+  </div>
+<!-- TODO: ADD YOUR HTML CODE HERE -->
+  <table id="answer-table">
+		<tr>
+			<td></td>
+			<td>Correct Answer</td>
+			<td>Your Answer</td>
+			<td>Did You Know...</td>
+			<!-- <td></td> -->
+		</tr>
+		<tr>
+			<td id="question0">Question #1</td>
+			<td id="correct-answer0">correct1</td>
+			<td id="user-answer0">user1</td>
+			<td id="tidbit0">tidbit1</td>
+			<!-- <td id="thumbnail0">Thumbnail1</td> -->
+		</tr>
+		<tr>
+			<td id="question1">Question #2</td>
+			<td id="correct-answer1">correct2</td>
+			<td id="user-answer1">user2</td>
+			<td id="tidbit1">tidbit2</td>
+			<!-- <td id="thumbnail1">Thumbnail2</td> -->
+		</tr>
+		<tr>
+			<td id="question2">Question #3</td>
+			<td id="correct-answer2">correct3</td>
+			<td id="user-answer2">user3</td>
+			<td id="tidbit2">tidbit3</td>
+			<!-- <td id="thumbnail2">Thumbnail3</td> -->
+		</tr>
+		<tr>
+			<td id="question3">Question #4</td>
+			<td id="correct-answer3">correct4</td>
+			<td id="user-answer3">user4</td>
+			<td id="tidbit3">tidbit4</td>
+			<!-- <td id="thumbnail3">Thumbnail4</td> -->
+		</tr>
+		<tr>
+			<td id="question4">Question #5</td>
+			<td id="correct-answer4">correct5</td>
+			<td id="user-answer4">user5</td>
+			<td id="tidbit4">tidbit5</td>
+			<!-- <td id="thumbnail4">Thumbnail5</td> -->
+		</tr>
+
+  </table>
+<!-- TODO: ADD JQUERY DEPENDENCY -->
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js" charset="utf-8"></script>
+<!-- TODO: ADD YOUR JS FILES -->
 </body>
 </html>
